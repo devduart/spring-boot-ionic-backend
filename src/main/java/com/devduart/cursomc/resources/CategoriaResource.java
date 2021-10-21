@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.devduart.cursomc.domain.Categoria;
 import com.devduart.cursomc.services.CategoriaService;
 
+
 @RestController
 @RequestMapping(value="/Categorias")
 public class CategoriaResource {
